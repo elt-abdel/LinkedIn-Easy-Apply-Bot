@@ -1,23 +1,23 @@
-email: email@domain.com
-password: yourpassword
+email: altayebscience1@gmail.com
+password: aboadam4
 
 disableAntiLock: False
 
-remote: False
+remote: True
 
 experienceLevel:
  internship: False
  entry: True
- associate: False
- mid-senior level: False
- director: False
- executive: False
+ associate: True
+ mid-senior level: True
+ director: True
+ executive: True
  
 jobTypes:
  full-time: True
- contract: False
- part-time: False
- temporary: False
+ contract: True
+ part-time: True
+ temporary: True
  internship: False
  other: False
  volunteer: False
@@ -29,31 +29,36 @@ date:
  24 hours: False
  
 positions:
- #- First position
- #- A second position
- #- A third position
- #- ...
+ - Software Developer
+ - Software Engineer
+ - Full Stack Developer
+ - Full-Stack Developer
+ - Full Stack Software Developer
+ - Full-Stack Software Developer
+ - Full Stack Engineer
+ - Full-Stack Engineer
+ - Full Stack Software Engineer
+ - Full-Stack Software Engineer
 locations:
- #- First location
- #- A second location
- #- A third location
- #- ...
-distance: 25
+ - Washington DC-Baltimore Area
+distance: 50
 
-outputFileDirectory: C:\Users\myDirectory\
+outputFileDirectory: /Users/eltayeb/Documents/Output
 
 companyBlacklist:
- #- company
- #- company2
+ - Revature
+ - Cybercoders
+ - Jobot
 
 titleBlacklist:
  #- word1
  #- word2
 
 uploads:
- resume: C:\Users\myDirectory\Resume.pdf
- # Cover letter is optional
- #coverLetter: C:\Users\myDirectory\CoverLettter.pdf
+ resume: /Users/eltayeb/Documents/Resumes/Eltayeb_resume_2023.pdf
+
+#  Cover letter is optional
+ coverLetter: /Users/eltayeb/Documents/Resumes/cover_letter.pdf
 
 
 # ------------ QA section -------------------
@@ -85,7 +90,7 @@ checkboxes:
  backgroundCheck: True
 
 # ------------ Additional parameters: univeristyGpa ---------------
-universityGpa: 4.0
+universityGpa: 2.6
 
 # ------------ Additional parameters: languages ---------------
 languages:
@@ -111,7 +116,7 @@ industry:
  General Business: 0
  Health Care Provider: 0
  Human Resources: 0
- Information Technology: 0
+ Information Technology: 4
  Legal: 0
  Management: 0
  Manufacturing: 0
@@ -131,8 +136,23 @@ industry:
  Writing/Editing: 0
  # end normal ones
  # put your custom ones here
- #C++: 0
- #Python: 1
+ C++: 0
+ Python: 1
+ Bootstrap 5: 1
+ Express.js: 2
+ Karma: 1
+ Jasmine: 1
+ React.js: 2
+ Spring Boot: 1
+ Node.js: 3
+ RxJS: 1
+ Angular.js: 1
+ Sql: 4
+ Javascript: 4
+ Java: 5
+ Cypress: 1
+ Selenium: 1
+ Junit: 4
  # default to put for any skill that you did not list
  default: 0
  # end custom ones
@@ -141,22 +161,37 @@ industry:
 # ------------ Additional parameters: years of technology experience ---------------
 # How many years of work experience do you have using TECHNOLOGY? (whole numbers only)
 technology:
- #python: 0
- #selenium: 0
+ C++: 0
+ Python: 1
+ Bootstrap 5: 1
+ Express.js: 2
+ Karma: 1
+ Jasmine: 1
+ React.js: 2
+ Spring Boot: 1
+ Node.js: 3
+ RxJS: 1
+ Angular.js: 1
+ Sql: 4
+ Javascript: 4
+ Java: 5
+ Cypress: 1
+ Selenium: 1
+ Junit: 4
  # default to put for any skill that you did not list
- default: 0
+ default: 1
 # ------------ Additional parameters: personal info ---------------
 personalInfo:
- First Name: FirstName
- Last Name: LastName
- Phone Country Code: Canada (+1) # See linkedin for your country code, must be exact
- Mobile Phone Number: 1234567890
- Street address: 123 Fake Street
- City: Red Deer, Alberta # Include the state/province as well!
- State: YourState
- Zip: YourZip/Postal
- Linkedin: https://www.linkedin.com/in/my-linkedin-profile
- Website: https://www.my-website.com # github/website is interchangable here
+ First Name: Eltayeb
+ Last Name: Abdelrahman
+ Phone Country Code: United States (+1) # See linkedin for your country code, must be exact
+ Mobile Phone Number: 2402533793
+ Street address: 
+ City: Damascus, Maryland # Include the state/province as well!
+ State: MD
+ Zip: 20872
+ Linkedin: #https://www.linkedin.com/in/my-linkedin-profile
+ Website: #https://www.my-website.com # github/website is interchangable here
 
 # ------------ Additional parameters: USA employment crap ---------------
 eeo:
@@ -164,4 +199,4 @@ eeo:
  race: None
  vetran: None
  disability: None
- citizenship: Canadian
+ citizenship: US Citizen

@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/Users/eltayeb/Documents/GitHub/LinkedIn-Easy-Apply-Bot"
+    ],
+    "python.analysis.extraPaths": [
+        "/Users/eltayeb/Documents/GitHub/LinkedIn-Easy-Apply-Bot"
+    ]
+}
