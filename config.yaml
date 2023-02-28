@@ -43,7 +43,7 @@ locations:
  - Washington DC-Baltimore Area
 distance: 50
 
-outputFileDirectory: /Users/eltayeb/Documents/Output
+outputFileDirectory: C:\Users\Home\Documents\output
 
 companyBlacklist:
  - Revature
@@ -55,10 +55,10 @@ titleBlacklist:
  #- word2
 
 uploads:
- resume: /Users/eltayeb/Documents/Resumes/Eltayeb_resume_2023.pdf
+ resume: C:/Users/Home/Documents/Resumes/Eltayeb_resume_2023.pdf
 
 #  Cover letter is optional
- coverLetter: /Users/eltayeb/Documents/Resumes/cover_letter.pdf
+#  coverLetter: /Users/eltayeb/Documents/Resumes/cover_letter.pdf
 
 
 # ------------ QA section -------------------

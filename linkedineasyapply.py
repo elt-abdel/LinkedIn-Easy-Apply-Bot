@@ -622,7 +622,7 @@ class LinkedinEasyApply:
                     continue
                 elif 'phone number' in text:
                     try:
-                        country_code_picker = el.find_element(By.CLASS_NAME, 'fb-dropdown__select')
+                        country_code_picker = el.find_element(By.TAG_NAME, 'data-test-text-entity-list-form-select')
                         self.select_dropdown(country_code_picker, self.personal_info['Phone Country Code'])
                     except:
                         print("Country code " + self.personal_info['Phone Country Code'] + " not found! Make sure it is exact.")
